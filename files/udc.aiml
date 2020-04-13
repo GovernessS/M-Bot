@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>* ANXIETY *</pattern>
+    <template><random>
+        <li>Have you considered meditation? The following resoure is a great
+        way to get started: 
+        <button>
+            <text>CLICK HERE</text>
+            <url>https://www.youtube.com/watch?v=W19PdslW7iw</url>
+        </button>
+        </li>
+        <li>Do you have anyone in your life where you can vent your stress
+        and anxiety to?</li>
+    </random></template>
+  </category>
+  
+    <category>
+    <pattern>* DEPRESSION *</pattern>
+    <template><random>
+        <li>Did something happen recently to make you feel this way?
+        </li>
+        <li>What do you need from me right now?</li>
+    </random></template>
+  </category>
+  
+</aiml>
